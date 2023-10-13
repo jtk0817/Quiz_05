@@ -2,11 +2,11 @@ class 붕어빵_타이쿤:
     def __init__(self, 요소, 가격):
         self.요소 = 요소
         self.가격 = 가격
-        self.총_판매금 = 0
+        self.total = 0
 
     def sell(self):
         print(f"판매된 붕어빵: {self.요소}, 가격: {self.가격}원에 팔렸습니다.")
-        self.총_판매금 += self.가격
+        self.total += self.가격
 
     def eat(self):
         print(f"먹는 붕어빵: {self.요소}을 먹었습니다.")
